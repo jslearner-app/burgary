@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gurgandy Flag Drawing with HTML CSS</title>
+  </head>
+
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 90vw;
+      height: 75vh;
+      justify-content: center;
+      align-items: center;
+      margin: 50px;
+    }
+
+    .flag {
+      width: 45vw;
+      height: 75vh;
+    }
+
+    #black {
+      background: black;
+    }
+    #yellow {
+      background: yellow;
+    }
+
+    .circle {
+      background: white;
+      width: 20vw;
+      height: 20vw;
+      border-radius: 50%;
+      border: 5px dotted red;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      opacity: 2%;
+    }
+
+    .circle {
+      background: url(Courgette.png);
+      background-repeat: no-repeat;
+      background-size: 50vw;
+      position: absolute;
+      opacity: 50%;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="flag" id="black"></div>
+      <div class="flag" id="yellow"></div>
+      <div class="circle"></div>
+    </div>
+  </body>
+</html>
